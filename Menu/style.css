@@ -1,0 +1,111 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height:100%;
+    box-sizing: border-box;
+
+}
+
+.container{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 100%;
+}
+
+.side-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    text-align: center;
+
+    width: 400px;
+    height: 98%;
+}
+
+.side-bar__container--size{
+    width: 400px;
+
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-bar__feature--flex{
+    display: flex;
+    align-items: flex-end;
+    flex: .4;
+}
+
+.side-bar__feature{
+    background-color: rgb(68, 68, 68);
+    width: 2px;
+    height: 40px;
+    border-radius: 2px;
+}
+
+.side-bar__tittle{
+    font-size: 4em;
+    
+}
+
+.side-bar__desc{
+    margin-bottom: 50px;
+    padding: 0px 10px;
+}
+.side-bar__menu{
+    box-sizing: border-box;
+    padding: 30px;
+    flex: 1;
+}
+
+.side-bar__menu h2{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.side-bar__menu p{
+    color: #696969;
+    margin: 10px;
+}
+
+.side-bar__button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, rgb(76, 0, 255) , rgb(204, 0, 255));
+    padding: 20px;
+    width: 260px;
+    border-radius: 100px;
+}
+
+.container-images{
+    display: flex;
+}
+
+.container-images img{
+    width: 100%;
+}
+
+.container-images__lagosta{
+
+}
+
+.container-images__vinho{
+
+}
+
+
+.container-images__chiq-eat{
+    
+}
